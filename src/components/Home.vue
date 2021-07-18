@@ -1,9 +1,9 @@
 <template>
-	<main class="grid gap-y-3">
+	<main class="grid gap-y-3 sm:px-2 sm:grid-cols-2 sm:gap-3">
 		<div
 			v-for="video in videos.data"
 			:key="video.id"
-			class="relative w-screen"
+			class="relative"
 			style="padding-top: 56.25%"
 		>
 			<iframe
