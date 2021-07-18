@@ -1,5 +1,5 @@
 <template>
-	<div class="grid gap-y-3">
+	<main class="grid gap-y-3">
 		<div
 			v-for="video in videos.data"
 			:key="video.id"
@@ -16,7 +16,7 @@
 				></iframe
 			>
 		</div>
-	</div>
+	</main>
 </template>
 
 <script>
