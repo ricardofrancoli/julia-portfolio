@@ -8,7 +8,7 @@
 		>
 			<iframe
 				:id="video.id"
-				:src="`${video.url}?fs=0&modestbranding=1&playsinline=1&rel=0`"
+				:src="video.url"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 				frameborder="0"
 				class="absolute top-0 left-0 w-full h-full"
